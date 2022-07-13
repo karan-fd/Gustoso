@@ -1,0 +1,51 @@
+.footer-- {
+  &section {
+    padding: 7rem 0;
+    background: #f3f1e9;
+  }
+  &box {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 7rem;
+  }
+  &logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h6 {
+      font-size: 3rem;
+      font-family: "Scriptina";
+      min-width: 15rem;
+      position: relative;
+      a {
+        font: 3rem $f_scriptina;
+        color: $text;
+        display: block;
+        letter-spacing: 0.9rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%);
+        left: 0;
+      }
+    }
+  }
+  &nav ul {
+    padding: 2.5rem 3.5rem;
+    border-top: 1px solid $primary_lighter;
+    border-bottom: 1px solid $primary_lighter;
+    li {
+      &::after {
+        color: $text;
+        margin: 0 3rem;
+      }
+      a {
+        color: $text;
+        font-weight: 600;
+        &::after {
+          background: $text;
+          height: 1px;
+        }
+      }
+    }
+  }
+}

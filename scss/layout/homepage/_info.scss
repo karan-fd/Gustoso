@@ -1,0 +1,96 @@
+.info-- {
+  &section {
+    padding: 14rem 0 10rem;
+  }
+  &box {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-auto-rows: 5rem auto 1fr;
+  }
+  &detail {
+    &Card {
+      grid-area: 2/1 / span 3 / span 2;
+      background: $w;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 26.5rem;
+        height: 31rem;
+        background: url(/img/info-detail-text-bg.png) bottom right no-repeat;
+        background-size: contain;
+        z-index: -1;
+      }
+    }
+    &Img {
+      width: 42rem;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+    &Text {
+      padding: 8rem 6rem 4rem;
+      display: grid;
+      .text {
+        margin: 5rem 0 3.5rem;
+        line-height: 1.7;
+      }
+      .rating {
+        width: 11rem;
+        max-width: 100%;
+      }
+    }
+  }
+  &minuteCard {
+    grid-area: 1/2 / span 2 / span 2;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    h6 {
+      font: 600 1.8rem $f_alegreya;
+      color: $primary;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      span {
+        color: $primary_lighter;
+        font-size: 9.2rem;
+        line-height: 1;
+        margin: 0.7rem 0 0;
+      }
+    }
+  }
+  &sliderBox {
+    margin: 4rem 0 0 0;
+  }
+  &imgSlider {
+    padding: 0 5rem;
+  }
+  &img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}

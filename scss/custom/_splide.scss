@@ -1,0 +1,35 @@
+.splide {
+  .splide__ {
+    &arrow {
+      width: 3.2rem;
+      height: 3.2rem;
+      background: transparent;
+      border: 2px solid $primary_lighter;
+      transition: $transition;
+      left: 0;
+      svg {
+        width: 1.2rem;
+        height: 1.2rem;
+        fill: $primary_lighter;
+        transition: $transition;
+      }
+      &:hover {
+        background: $primary_lighter;
+        svg {
+          fill: $w;
+        }
+      }
+      &--next {
+        left: unset;
+        right: 0;
+        border: 2px solid $text;
+        svg {
+          fill: $text;
+        }
+        &:hover {
+          background: $text;
+        }
+      }
+    }
+  }
+}
