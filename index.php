@@ -20,15 +20,15 @@
         <div class="container">
             <hgroup class="header--box">
                 <div class="header--logo">
-                    <h1><a href="" title="Gistoso">Gustoso</a></h1>
+                    <h1><a href="#" title="Gistoso">Gustoso</a></h1>
                 </div>
                 <nav class="header--nav">
                     <ul class="menuList">
-                        <li><a href="" title="Welcome">Welcome</a></li>
-                        <li><a href="" title="Menu">Menu</a></li>
-                        <li><a href="" title="Reservations">Reservations</a></li>
-                        <li><a href="" title="News">News</a></li>
-                        <li><a href="" title="Contact">Contact</a></li>
+                        <li><a href="#" title="Welcome">Welcome</a></li>
+                        <li><a href="#" title="Menu">Menu</a></li>
+                        <li><a href="#" title="Reservations">Reservations</a></li>
+                        <li><a href="#" title="News">News</a></li>
+                        <li><a href="#" title="Contact">Contact</a></li>
                     </ul>
                     <div class="header--menuBar">
                         <button class="menuBar" id="menuBar" aria-label="menu-bar-toggler">
@@ -54,11 +54,11 @@
         <div class="mobileMenu--container">
             <nav class="mobileMenu--nav">
                 <ul class="menuList">
-                    <li><a href="" title="Welcome">Welcome</a></li>
-                    <li><a href="" title="Menu">Menu</a></li>
-                    <li><a href="" title="Reservations">Reservations</a></li>
-                    <li><a href="" title="News">News</a></li>
-                    <li><a href="" title="Contact">Contact</a></li>
+                    <li><a href="#" title="Welcome">Welcome</a></li>
+                    <li><a href="#" title="Menu">Menu</a></li>
+                    <li><a href="#" title="Reservations">Reservations</a></li>
+                    <li><a href="#" title="News">News</a></li>
+                    <li><a href="#" title="Contact">Contact</a></li>
                 </ul>
                 <ul class="socialIcons">
                     <li><a href="https://twitter.com/" title="Twitter" target="_blank" rel="noreferrer">
@@ -83,7 +83,7 @@
                 <img src="img/banner--line.png" alt="">
                 <p>We’re bringing you fresh ingredients every day in ways you can’t resist.</p>
                 <div class="btn--holder">
-                    <a href="" title="Our Menu" class="btn">Our Menu</a>
+                    <a href="#" title="Our Menu" class="btn">Our Menu</a>
                 </div>
             </div>
         </div>
@@ -241,7 +241,7 @@
                                     Nullam quis ante. Etiam sit amet orci eget eros
                                     faucibus tincidunt. Duis leo.</p>
                                 <div class="btn--holder">
-                                    <a href="" title="Read" class="btn btn--bordered">Read</a>
+                                    <a href="#" title="Read" class="btn btn--bordered">Read</a>
                                 </div>
                             </div>
                         </article>
@@ -307,7 +307,7 @@
                             </article>
                         </div>
                         <div class="btn--holder">
-                            <a href="" title="Full Recipe" class="btn btn--white">Full Recipe</a>
+                            <a href="#" title="Full Recipe" class="btn btn--white">Full Recipe</a>
                         </div>
                     </div>
                 </div>
@@ -321,19 +321,19 @@
             <div class="footer--box">
                 <nav class="footer--nav">
                     <ul class="menuList">
-                        <li><a href="" title="Our Menu">Our Menu</a></li>
-                        <li><a href="" title="Gallery">Gallery</a></li>
-                        <li><a href="" title="Culture">Culture</a></li>
+                        <li><a href="#" title="Our Menu">Our Menu</a></li>
+                        <li><a href="#" title="Gallery">Gallery</a></li>
+                        <li><a href="#" title="Culture">Culture</a></li>
                     </ul>
                 </nav>
                 <div class="footer--logo">
-                    <h6><a href="" title="Gistoso">Gustoso</a></h6>
+                    <h6><a href="#" title="Gistoso">Gustoso</a></h6>
                 </div>
                 <nav class="footer--nav">
                     <ul class="menuList">
-                        <li><a href="" title="Events">Events</a></li>
-                        <li><a href="" title="Catering">Catering</a></li>
-                        <li><a href="" title="Visit Us">Visit Us</a></li>
+                        <li><a href="#" title="Events">Events</a></li>
+                        <li><a href="#" title="Catering">Catering</a></li>
+                        <li><a href="#" title="Visit Us">Visit Us</a></li>
                     </ul>
                 </nav>
             </div>
