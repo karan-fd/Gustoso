@@ -25,5 +25,22 @@ if (myEle) {
         arrows: true,
         pagination: false,
         perPage: 3,
+        breakpoints: {
+            1080: {
+                perPage: 1,
+                gap: "2rem",
+                autoplay: true,
+                autoWidth: true,
+            }
+        }
     }).mount();
 }
+
+//Menu Bar Toggle
+var menuBar = document.getElementById("menuBar");
+menuBar.onclick = ((evt) => {
+    evt.currentTarget.classList.toggle("active");
+    document.querySelector("body").classList.toggle("hide");
+    document.querySelector(".mobileMenu--section").classList.toggle("is--open")
+    document.querySelector(".header--section").classList.toggle("is--active")
+})

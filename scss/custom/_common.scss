@@ -50,6 +50,13 @@ section {
   max-width: 125rem;
   padding: 0 1.5rem;
   margin: 0 auto;
+  @media screen and (max-width: 992px) {
+    width: 92%;
+  }
+  @media screen and (max-width: 576px) {
+    width: 100%;
+    padding: 0 2rem;
+  }
 }
 .section--title {
   h3 {

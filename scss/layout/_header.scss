@@ -6,30 +6,16 @@
     width: 100%;
     z-index: 100;
     padding: 2.5rem 0;
+    transition: $transition;
+    &.is--active {
+      background: rgba($b, 0.25);
+    }
   }
   &box {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    grid-gap: 3rem;
+    grid-gap: 2rem;
     align-items: center;
-    ul.socialIcons {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      gap: 2rem;
-      list-style: none;
-      li {
-        display: flex;
-        a {
-          display: block;
-          width: 1.5rem;
-          transition: $transition;
-          &:hover {
-            transform: translateY(-0.5rem) scale(1.25);
-          }
-        }
-      }
-    }
   }
   &logo {
     h1 {
@@ -53,6 +39,93 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  &menuBar {
+    display: none;
+    button.menuBar {
+      display: grid;
+      grid-gap: 0.5rem;
+      width: 4rem;
+      height: 4rem;
+      background: $w;
+      place-content: center;
+      place-items: center;
+      span {
+        display: table;
+        grid-area: 2/1 / span 1 / span 1;
+        width: 2.5rem;
+        height: 0.3rem;
+        background: $primary;
+        border-radius: 50px;
+        transition: $transition;
+        &:nth-child(1) {
+          grid-area: 1/1 / span 1 / span 1;
+          transform-origin: right;
+        }
+        &:nth-child(4) {
+          grid-area: 3/1 / span 1 / span 1;
+          transform-origin: left;
+        }
+      }
+      &.active span {
+        &:nth-child(1),
+        &:nth-child(4) {
+          transform: scaleX(0);
+        }
+        &:nth-child(2) {
+          transform: rotate(45deg);
+        }
+        &:nth-child(3) {
+          transform: rotate(135deg);
+        }
+      }
+    }
+  }
+}
+.mobileMenu-- {
+  &section {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    width: 100%;
+    max-width: 30rem;
+    height: 100vh;
+    background: $text;
+    z-index: 99;
+    padding: 10rem 0 3rem;
+    visibility: hidden;
+    transition: $transition;
+    &.is--open {
+      left: 0;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  &container {
+    padding: 0 1.5rem;
+  }
+  &nav {
+    display: grid;
+    grid-gap: 4rem;
+    ul {
+      &.menuList {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+        li {
+          &::after {
+            display: none;
+          }
+          a {
+            font-size: 1.6rem;
+          }
+        }
+      }
+      &.socialIcons {
+        justify-content: flex-start;
+      }
+    }
   }
 }
 ul.menuList {
@@ -94,6 +167,24 @@ ul.menuList {
       }
       &:hover::after {
         width: 100%;
+      }
+    }
+  }
+}
+ul.socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+  list-style: none;
+  li {
+    display: flex;
+    a {
+      display: block;
+      width: 1.5rem;
+      transition: $transition;
+      &:hover {
+        transform: translateY(-0.5rem) scale(1.25);
       }
     }
   }

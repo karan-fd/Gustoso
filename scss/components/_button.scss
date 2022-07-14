@@ -49,5 +49,8 @@
   &--white {
     background: $w;
     color: $primary_light;
+    &:hover {
+      color: $w;
+    }
   }
 }

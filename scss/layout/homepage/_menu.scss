@@ -114,6 +114,10 @@
           transform: scale(calc(100% - #{$val * 8}#{"%"}))
             translateX(calc($val * 10%));
           z-index: #{1 - $val};
+          @media screen and (max-width: 992px) {
+            transform: scale(calc(100% - #{$val * 8}#{"%"}))
+              translateY(calc($val * 10%));
+          }
         }
       }
     }
@@ -132,7 +136,6 @@
       margin: 4rem 0 5rem;
       line-height: 1.7;
       letter-spacing: 1px;
-      font-weight: 600;
     }
   }
 }

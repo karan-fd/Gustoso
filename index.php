@@ -30,6 +30,11 @@
                         <li><a href="" title="News">News</a></li>
                         <li><a href="" title="Contact">Contact</a></li>
                     </ul>
+                    <div class="header--menuBar">
+                        <button class="menuBar" id="menuBar" aria-label="menu-bar-toggler">
+                            <span></span><span></span><span></span><span></span>
+                        </button>
+                    </div>
                 </nav>
                 <ul class="socialIcons">
                     <li><a href="https://twitter.com/" title="Twitter" target="_blank" rel="noreferrer">
@@ -45,18 +50,40 @@
             </hgroup>
         </div>
     </header>
+    <section class="mobileMenu--section">
+        <div class="mobileMenu--container">
+            <nav class="mobileMenu--nav">
+                <ul class="menuList">
+                    <li><a href="" title="Welcome">Welcome</a></li>
+                    <li><a href="" title="Menu">Menu</a></li>
+                    <li><a href="" title="Reservations">Reservations</a></li>
+                    <li><a href="" title="News">News</a></li>
+                    <li><a href="" title="Contact">Contact</a></li>
+                </ul>
+                <ul class="socialIcons">
+                    <li><a href="https://twitter.com/" title="Twitter" target="_blank" rel="noreferrer">
+                            <img src="img/icons/twitter.png" alt="twitter-logo">
+                        </a></li>
+                    <li><a href="https://facebook.com/" title="Facebook" target="_blank" rel="noreferrer">
+                            <img src="img/icons/facebook.png" alt="facebook-logo">
+                        </a></li>
+                    <li><a href="https://instagram.com/" title="Instagram" target="_blank" rel="noreferrer">
+                            <img src="img/icons/instagram.png" alt="instagram-logo">
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
     <!-- Banner Section Starts -->
     <section class="banner--section">
         <div class="banner--bg"><img src="img/bg/banner--bg.png" alt=""></div>
-        <div class="banner--box">
-            <div class="container">
-                <div class="banner--textbox">
-                    <h2>Pastry with love</h2>
-                    <img src="img/banner--line.png" alt="">
-                    <p>We’re bringing you fresh ingredients every day in ways you can’t resist.</p>
-                    <div class="btn--holder">
-                        <a href="" title="Our Menu" class="btn">Our Menu</a>
-                    </div>
+        <div class="container">
+            <div class="banner--textbox">
+                <h2>Pastry with love</h2>
+                <img src="img/banner--line.png" alt="">
+                <p>We’re bringing you fresh ingredients every day in ways you can’t resist.</p>
+                <div class="btn--holder">
+                    <a href="" title="Our Menu" class="btn">Our Menu</a>
                 </div>
             </div>
         </div>
