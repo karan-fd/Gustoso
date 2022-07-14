@@ -1,0 +1,37 @@
+@media screen and (max-width: 1080px) {
+  //
+  ul.menuList li::after {
+    margin: 0 2.5rem;
+  }
+  .about--img {
+    min-height: 22.5rem;
+  }
+  .info-- {
+    &minuteCard {
+      transform: translateY(-30%);
+    }
+    &img {
+      width: 100%;
+      height: auto;
+      &Slider {
+        padding: 0;
+        &.splide .splide__arrow {
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+    }
+  }
+  .recipe--rightInfo .info--minuteCard {
+    transform: unset;
+  }
+  .footer-- {
+    &box {
+      grid-gap: 4rem;
+    }
+    &nav ul li::after {
+      margin: 0 2rem;
+    }
+  }
+  //
+}

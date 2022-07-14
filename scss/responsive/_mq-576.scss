@@ -1,0 +1,117 @@
+@media screen and (max-width: 576px) {
+  //
+  .mobileMenu--container {
+    padding: 0 2rem;
+  }
+  .banner-- {
+    &section {
+      height: 95vh;
+    }
+    &textbox h2 {
+      font-size: 5.6rem;
+    }
+  }
+  .about-- {
+    &textBox {
+      padding: 0;
+    }
+    &imgBox {
+      display: none;
+    }
+  }
+  .info-- {
+    &section {
+      padding: 7rem 0;
+    }
+    &box {
+      grid-template-columns: 1fr auto 0;
+      grid-auto-rows: 0 auto 1fr;
+    }
+    &detailText {
+      padding: 3rem;
+    }
+    &minuteCard {
+      width: 16rem;
+      height: 16rem;
+      h6 {
+        font-size: 1.6rem;
+        span {
+          font-size: 8rem;
+        }
+      }
+    }
+  }
+  .menu--text h5 {
+    font-size: 2.8rem;
+  }
+  .recipe--right {
+    &Img {
+      min-height: auto;
+    }
+    &Info {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0 2px;
+      .info--minuteCard {
+        &:last-child {
+          grid-column: auto/span 2;
+        }
+        border-right: none;
+        h6 span {
+          font-size: 4.2rem;
+        }
+        &:last-child {
+          h6 span {
+            font-size: 6rem;
+          }
+        }
+      }
+    }
+  }
+  .footer-- {
+    &section {
+      padding: 1rem 0 5rem 0;
+    }
+    &box {
+      grid-gap: 0;
+    }
+    &logo {
+      grid-area: 1/1 / span 1 / span 1;
+      margin: 0 0 2.5rem;
+      h6 a {
+        position: unset;
+        top: 0;
+        transform: unset;
+      }
+    }
+    &nav {
+      ul.menuList {
+        flex-direction: column;
+        li {
+          flex-direction: column;
+          &::after {
+            margin: 1.5rem 0;
+            font-size: 1.8rem;
+            text-align: center;
+          }
+        }
+      }
+      &:first-child {
+        ul.menuList {
+          padding-bottom: 0;
+          border-bottom: unset;
+          li:last-child::after {
+            content: "~";
+            display: block;
+          }
+        }
+      }
+      &:last-child {
+        ul.menuList {
+          padding-top: 0;
+          border-top: unset;
+        }
+      }
+    }
+  }
+  //
+}
