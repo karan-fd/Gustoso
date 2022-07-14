@@ -342,10 +342,16 @@
         </div>
     </footer>
     <!-- Footer Section Ends -->
+    <!-- //-// Fetching Script Tags //-// -->
+    <!-- GSAP JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
     <!-- Splide Slider JS -->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
     <!-- Custom JS -->
     <script src="js/app.js"></script>
+    <!-- Custom Animation -->
+    <script src="js/animation.js"></script>
 </body>
 
 </html>
