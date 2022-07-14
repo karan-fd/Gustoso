@@ -16,7 +16,8 @@
 </head>
 
 <body>
-    <header class="header--section">
+    <!-- Header Section Starts -->
+    <header class="header--section" id="headerSection">
         <div class="container">
             <hgroup class="header--box">
                 <div class="header--logo">
@@ -74,8 +75,9 @@
             </nav>
         </div>
     </section>
+    <!-- Header Section Ends -->
     <!-- Banner Section Starts -->
-    <section class="banner--section">
+    <section class="banner--section" id="bannerSection">
         <div class="banner--bg"><img src="img/bg/banner--bg.png" alt=""></div>
         <div class="container">
             <div class="banner--textbox">
@@ -87,7 +89,7 @@
                 </div>
             </div>
         </div>
-        <a href="#aboutus" class="center--icons">
+        <a href="#aboutSection" class="center--icons">
             <figure>
                 <img src="img/center--bread.png" alt="">
             </figure>
@@ -95,7 +97,7 @@
     </section>
     <!-- Banner Section Ends -->
     <!-- About Section Starts -->
-    <section class="about--section" id="aboutus" style="background: url(img/bg/about--bg.png)center center no-repeat; background-size:cover;">
+    <section class="about--section" id="aboutSection" style="background: url(img/bg/about--bg.png)center center no-repeat; background-size:cover;">
         <div class="container">
             <div class="about--box">
                 <div class="about--textBox">
@@ -143,7 +145,7 @@
     </section>
     <!-- About Section Ends -->
     <!-- Info Section Starts -->
-    <section class="info--section" style="background: url(img/bg/info--bg.png)center center no-repeat; background-size:cover;">
+    <section class="info--section" id="infoSection" style="background: url(img/bg/info--bg.png)center center no-repeat; background-size:cover;">
         <div class="container">
             <div class="info--box">
                 <article class="info--detailCard">
@@ -192,7 +194,7 @@
     </section>
     <!-- Info Section Ends -->
     <!-- Menu Section Starts -->
-    <section class="menu--section" style="background: url(img/bg/menu--bg.png)center center no-repeat; background-size:cover;">
+    <section class="menu--section" id="menuSection" style="background: url(img/bg/menu--bg.png)center center no-repeat; background-size:cover;">
         <div class="menu--layer">
             <img src="img/menu-bg-layer.png" alt="">
         </div>
@@ -252,7 +254,7 @@
     </section>
     <!-- Menu Section Ends -->
     <!-- Recipe Section Starts -->
-    <section class="recipe--section">
+    <section class="recipe--section" id="recipeSection">
         <div class="recipe--layer"><img src="img/recipe--layer.png" alt=""></div>
         <div class="container">
             <div class="section--title __center">
@@ -316,7 +318,7 @@
     </section>
     <!-- Recipe Section Ends -->
     <!-- Footer Section Starts -->
-    <footer class="footer--section">
+    <footer class="footer--section" id="footerSection">
         <div class="container">
             <div class="footer--box">
                 <nav class="footer--nav">
